@@ -1,0 +1,10 @@
+{
+  "applications": {
+    "SmartLock": {
+      "applicationId": "vHhE7FobHD5SCEgo9XDUOmHviYqLaURYc6YMikfn"
+    },
+    "_default": {
+      "link": "SmartLock"
+    }
+  }
+}
