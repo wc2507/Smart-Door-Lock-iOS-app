@@ -10,6 +10,7 @@
 import UIKit
 import Parse
 
+@available(iOS 8.0, *)
 class ViewController: UIViewController,UITextFieldDelegate {
     
     @IBOutlet weak var userName: UITextField!
@@ -20,7 +21,8 @@ class ViewController: UIViewController,UITextFieldDelegate {
     
     func displayAlert(Title:String,Message:String){
         
-        var alert = UIAlertController(title: Title, message: Message, preferredStyle: UIAlertControllerStyle.Alert)
+            var alert = UIAlertController(title: Title, message: Message, preferredStyle: UIAlertControllerStyle.Alert)
+
         alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: { (action) -> Void in
             self.dismissViewControllerAnimated(true, completion: nil)
         }))
@@ -44,15 +46,15 @@ class ViewController: UIViewController,UITextFieldDelegate {
             view.addSubview(activityIndicator)
             activityIndicator.startAnimating()
             UIApplication.sharedApplication().beginIgnoringInteractionEvents()
-            PFUser.logInWithUsernameInBackground(userName.text, password: passWord.text, block: { (user, error) -> Void in
+            PFUser.logInWithUsernameInBackground(userName.text!, password: passWord.text!, block: { (user, error) -> Void in
                 self.activityIndicator.stopAnimating()
                 UIApplication.sharedApplication().endIgnoringInteractionEvents()
                 if user != nil {
                     self.performSegueWithIdentifier("Logined", sender: self)
                     
                 }else{
-                    if let errorString = error!.userInfo?["error"] as? String{
-                        println(errorString)
+                    if let errorString = error!.userInfo["error"] as? String{
+                        print(errorString)
                         errorMessage = "Please check your username and password"
                     }
                     self.displayAlert("Failed Login", Message: errorMessage)
@@ -74,16 +76,16 @@ class ViewController: UIViewController,UITextFieldDelegate {
     }
     
     override func viewDidAppear(animated: Bool) {
-        var currentUser = PFUser.currentUser()
+        let currentUser = PFUser.currentUser()
         if currentUser != nil {
             self.performSegueWithIdentifier("Logined", sender: self)
             
         }
     }
-
-    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         self.view.endEditing(true)
     }
+
     
     func textFieldShouldReturn(textField: UITextField) -> Bool{
         textField.resignFirstResponder()

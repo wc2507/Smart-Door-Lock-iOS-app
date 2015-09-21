@@ -9,13 +9,14 @@
 import UIKit
 import Parse
 
+@available(iOS 8.0, *)
 class SignUPView: UIViewController,UITextFieldDelegate {
     
     var activityIndicator: UIActivityIndicatorView = UIActivityIndicatorView()
     
     func displayAlert(Title:String,Message:String,Return:Bool){
         
-        var alert = UIAlertController(title: Title, message: Message, preferredStyle: UIAlertControllerStyle.Alert)
+        let alert = UIAlertController(title: Title, message: Message, preferredStyle: UIAlertControllerStyle.Alert)
         alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: { (action) -> Void in
             if(Return){
                 self.dismissViewControllerAnimated(true, completion: nil)
@@ -47,7 +48,7 @@ class SignUPView: UIViewController,UITextFieldDelegate {
             activityIndicator.startAnimating()
             UIApplication.sharedApplication().beginIgnoringInteractionEvents()
             var user = PFUser()
-            var userName = Email.text.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
+            var userName = Email.text!.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
             user.username = userName
             user.password = Password.text
             user.email = userName
@@ -61,7 +62,7 @@ class SignUPView: UIViewController,UITextFieldDelegate {
                     self.displayAlert("Successed", Message: "You have created an account",Return: true)
                     
                 }else{
-                    if let errorString = error!.userInfo?["error"] as? String{
+                    if let errorString = error!.userInfo["error"] as? String{
                         errorMessage = errorString
                     }
                     self.displayAlert("Failed Sign Up", Message: errorMessage,Return: false)
@@ -84,9 +85,8 @@ class SignUPView: UIViewController,UITextFieldDelegate {
 
         // Do any additional setup after loading the view.
     }
-    
-    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
-        self.view.endEditing(true)
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+            self.view.endEditing(true)
     }
     
     func textFieldShouldReturn(textField: UITextField) -> Bool{
