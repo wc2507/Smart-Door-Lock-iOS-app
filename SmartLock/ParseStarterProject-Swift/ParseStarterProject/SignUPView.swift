@@ -47,8 +47,8 @@ class SignUPView: UIViewController,UITextFieldDelegate {
             view.addSubview(activityIndicator)
             activityIndicator.startAnimating()
             UIApplication.sharedApplication().beginIgnoringInteractionEvents()
-            var user = PFUser()
-            var userName = Email.text!.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
+            let user = PFUser()
+            let userName = Email.text!.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
             user.username = userName
             user.password = Password.text
             user.email = userName

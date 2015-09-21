@@ -21,7 +21,7 @@ class ViewController: UIViewController,UITextFieldDelegate {
     
     func displayAlert(Title:String,Message:String){
         
-            var alert = UIAlertController(title: Title, message: Message, preferredStyle: UIAlertControllerStyle.Alert)
+            let alert = UIAlertController(title: Title, message: Message, preferredStyle: UIAlertControllerStyle.Alert)
 
         alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: { (action) -> Void in
             self.dismissViewControllerAnimated(true, completion: nil)
@@ -76,11 +76,10 @@ class ViewController: UIViewController,UITextFieldDelegate {
     }
     
     override func viewDidAppear(animated: Bool) {
-        let currentUser = PFUser.currentUser()
-        if currentUser != nil {
+       if ((PFUser.currentUser()) != nil){
             self.performSegueWithIdentifier("Logined", sender: self)
-            
         }
+        
     }
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         self.view.endEditing(true)

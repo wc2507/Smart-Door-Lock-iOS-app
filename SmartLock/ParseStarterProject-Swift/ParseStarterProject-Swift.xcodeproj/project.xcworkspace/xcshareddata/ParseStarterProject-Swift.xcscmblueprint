@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A4B75E6658DD2A8751BEC7AE2EF58C0F4C684570",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "BE4C12B13408A2FFC1E57B3E57FBB0313F3BFDBE" : 0,
+    "A4B75E6658DD2A8751BEC7AE2EF58C0F4C684570" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B5E94102-166C-4A00-823C-2E18CB8DD096",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "BE4C12B13408A2FFC1E57B3E57FBB0313F3BFDBE" : "",
+    "A4B75E6658DD2A8751BEC7AE2EF58C0F4C684570" : "SmartLock\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ParseStarterProject-Swift",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ParseStarterProject-Swift\/ParseStarterProject-Swift.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wc2507\/SmartLock.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A4B75E6658DD2A8751BEC7AE2EF58C0F4C684570"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:wc2507\/Smart-Door-Lock-iOS-app.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BE4C12B13408A2FFC1E57B3E57FBB0313F3BFDBE"
+    }
+  ]
+}

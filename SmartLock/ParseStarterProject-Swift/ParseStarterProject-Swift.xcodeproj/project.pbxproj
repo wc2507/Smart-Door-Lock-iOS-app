@@ -21,7 +21,14 @@
 		EC395F651BACE5BD00976D2B /* registerPop.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC395F641BACE5BD00976D2B /* registerPop.xib */; };
 		EC395F6F1BACF92500976D2B /* lockInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC395F6E1BACF92500976D2B /* lockInterface.swift */; };
 		EC395F731BAD1F2800976D2B /* registerPop.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC395F721BAD1F2800976D2B /* registerPop.swift */; };
-		ECDE0BC61BAF9C8100A3F6EA /* Pics in Resources */ = {isa = PBXBuildFile; fileRef = ECDE0BC51BAF9C8100A3F6EA /* Pics */; settings = {ASSET_TAGS = (); }; };
+		ECDE0BF21BAFAA1D00A3F6EA /* 1-1409101J447.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECDE0BEA1BAFAA1D00A3F6EA /* 1-1409101J447.jpg */; settings = {ASSET_TAGS = (); }; };
+		ECDE0BF31BAFAA1D00A3F6EA /* BGP.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECDE0BEB1BAFAA1D00A3F6EA /* BGP.jpg */; settings = {ASSET_TAGS = (); }; };
+		ECDE0BF41BAFAA1D00A3F6EA /* CTA-Register-Now-Blue-Button-PNG-Graphic-Cave.png in Resources */ = {isa = PBXBuildFile; fileRef = ECDE0BEC1BAFAA1D00A3F6EA /* CTA-Register-Now-Blue-Button-PNG-Graphic-Cave.png */; settings = {ASSET_TAGS = (); }; };
+		ECDE0BF51BAFAA1D00A3F6EA /* ios8raw.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECDE0BED1BAFAA1D00A3F6EA /* ios8raw.jpg */; settings = {ASSET_TAGS = (); }; };
+		ECDE0BF61BAFAA1D00A3F6EA /* Login.png in Resources */ = {isa = PBXBuildFile; fileRef = ECDE0BEE1BAFAA1D00A3F6EA /* Login.png */; settings = {ASSET_TAGS = (); }; };
+		ECDE0BF71BAFAA1D00A3F6EA /* next-arrow-glow.png in Resources */ = {isa = PBXBuildFile; fileRef = ECDE0BEF1BAFAA1D00A3F6EA /* next-arrow-glow.png */; settings = {ASSET_TAGS = (); }; };
+		ECDE0BF81BAFAA1D00A3F6EA /* SignUp.png in Resources */ = {isa = PBXBuildFile; fileRef = ECDE0BF01BAFAA1D00A3F6EA /* SignUp.png */; settings = {ASSET_TAGS = (); }; };
+		ECDE0BF91BAFAA1D00A3F6EA /* Unlock-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ECDE0BF11BAFAA1D00A3F6EA /* Unlock-icon.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,7 +51,14 @@
 		EC395F641BACE5BD00976D2B /* registerPop.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = registerPop.xib; sourceTree = "<group>"; };
 		EC395F6E1BACF92500976D2B /* lockInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = lockInterface.swift; sourceTree = "<group>"; };
 		EC395F721BAD1F2800976D2B /* registerPop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = registerPop.swift; path = ../registerPop.swift; sourceTree = "<group>"; };
-		ECDE0BC51BAF9C8100A3F6EA /* Pics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Pics; path = ../Pics; sourceTree = "<group>"; };
+		ECDE0BEA1BAFAA1D00A3F6EA /* 1-1409101J447.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "1-1409101J447.jpg"; path = "../ParseStarterProject/1-1409101J447.jpg"; sourceTree = "<group>"; };
+		ECDE0BEB1BAFAA1D00A3F6EA /* BGP.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BGP.jpg; path = ../ParseStarterProject/BGP.jpg; sourceTree = "<group>"; };
+		ECDE0BEC1BAFAA1D00A3F6EA /* CTA-Register-Now-Blue-Button-PNG-Graphic-Cave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "CTA-Register-Now-Blue-Button-PNG-Graphic-Cave.png"; path = "../ParseStarterProject/CTA-Register-Now-Blue-Button-PNG-Graphic-Cave.png"; sourceTree = "<group>"; };
+		ECDE0BED1BAFAA1D00A3F6EA /* ios8raw.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ios8raw.jpg; path = ../ParseStarterProject/ios8raw.jpg; sourceTree = "<group>"; };
+		ECDE0BEE1BAFAA1D00A3F6EA /* Login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Login.png; path = ../ParseStarterProject/Login.png; sourceTree = "<group>"; };
+		ECDE0BEF1BAFAA1D00A3F6EA /* next-arrow-glow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "next-arrow-glow.png"; path = "../ParseStarterProject/next-arrow-glow.png"; sourceTree = "<group>"; };
+		ECDE0BF01BAFAA1D00A3F6EA /* SignUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SignUp.png; path = ../ParseStarterProject/SignUp.png; sourceTree = "<group>"; };
+		ECDE0BF11BAFAA1D00A3F6EA /* Unlock-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Unlock-icon.png"; path = "../ParseStarterProject/Unlock-icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +81,15 @@
 		814C3AC51B69877600E307BB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				ECDE0BC51BAF9C8100A3F6EA /* Pics */,
 				814C3AC81B69877600E307BB /* Images.xcassets */,
+				ECDE0BEA1BAFAA1D00A3F6EA /* 1-1409101J447.jpg */,
+				ECDE0BEB1BAFAA1D00A3F6EA /* BGP.jpg */,
+				ECDE0BEC1BAFAA1D00A3F6EA /* CTA-Register-Now-Blue-Button-PNG-Graphic-Cave.png */,
+				ECDE0BED1BAFAA1D00A3F6EA /* ios8raw.jpg */,
+				ECDE0BEE1BAFAA1D00A3F6EA /* Login.png */,
+				ECDE0BEF1BAFAA1D00A3F6EA /* next-arrow-glow.png */,
+				ECDE0BF01BAFAA1D00A3F6EA /* SignUp.png */,
+				ECDE0BF11BAFAA1D00A3F6EA /* Unlock-icon.png */,
 				814C3AC91B69877600E307BB /* Info.plist */,
 			);
 			path = Resources;
@@ -189,10 +210,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECDE0BF91BAFAA1D00A3F6EA /* Unlock-icon.png in Resources */,
+				ECDE0BF21BAFAA1D00A3F6EA /* 1-1409101J447.jpg in Resources */,
+				ECDE0BF71BAFAA1D00A3F6EA /* next-arrow-glow.png in Resources */,
+				ECDE0BF81BAFAA1D00A3F6EA /* SignUp.png in Resources */,
 				EC395F651BACE5BD00976D2B /* registerPop.xib in Resources */,
-				ECDE0BC61BAF9C8100A3F6EA /* Pics in Resources */,
+				ECDE0BF61BAFAA1D00A3F6EA /* Login.png in Resources */,
 				814C3ACA1B69877600E307BB /* Main.storyboard in Resources */,
+				ECDE0BF41BAFAA1D00A3F6EA /* CTA-Register-Now-Blue-Button-PNG-Graphic-Cave.png in Resources */,
+				ECDE0BF31BAFAA1D00A3F6EA /* BGP.jpg in Resources */,
 				814C3ACB1B69877600E307BB /* Images.xcassets in Resources */,
+				ECDE0BF51BAFAA1D00A3F6EA /* ios8raw.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +360,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "ParseStarterProject-Swift";
 			};
@@ -347,6 +376,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "ParseStarterProject-Swift";
 			};

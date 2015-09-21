@@ -13,11 +13,19 @@ class registerPop: UIView {
     var view:UIView!
     @IBOutlet weak var popTitle: UILabel!
     @IBOutlet weak var KeyID: UITextField!
+    @IBOutlet weak var keyName: UITextField!
     @IBOutlet weak var dismissB: UIButton!
     @IBAction func registerB(sender: AnyObject) {
-        var check = PFQuery(className: "Register")
         
-        
+    if(KeyID != nil && keyName != nil){
+      let cUser = PFUser.currentUser()!.objectId!
+      let PID = KeyID.text
+      let nKey = keyName.text
+        PFCloud.callFunctionInBackground("Reg", withParameters: ["ID":PID!,"CUID":cUser,"nKey":nKey!]) { (response, error) -> Void in
+                print(response!)}
+        }
+
+
     }
 
     
