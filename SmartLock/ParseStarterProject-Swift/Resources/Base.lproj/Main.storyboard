@@ -112,7 +112,7 @@
                     <connections>
                         <outlet property="passWord" destination="TPf-Mp-BXh" id="WLb-RC-UdO"/>
                         <outlet property="userName" destination="bVM-Mm-K7V" id="hg5-l4-Mz9"/>
-                        <segue destination="uIs-3l-keh" kind="presentation" identifier="Logined" modalPresentationStyle="pageSheet" modalTransitionStyle="flipHorizontal" id="1b6-Sp-pxO"/>
+                        <segue destination="obI-Qc-665" kind="presentation" identifier="Logined" modalPresentationStyle="pageSheet" modalTransitionStyle="crossDissolve" id="GaD-O4-tGr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -132,10 +132,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ios8raw.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="OAX-ST-dtf">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please select a key" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gB2-Gn-aoP">
-                                <rect key="frame" x="85" y="36" width="245" height="47"/>
+                                <rect key="frame" x="85" y="56" width="245" height="47"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="59" id="bgi-jl-1Kh"/>
                                     <constraint firstAttribute="width" constant="245" id="t28-PD-K9p"/>
@@ -150,7 +150,7 @@
                                 </variation>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="PtM-Pf-Z9V">
-                                <rect key="frame" x="76" y="111" width="263" height="204"/>
+                                <rect key="frame" x="76" y="131" width="263" height="204"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="235" id="Afp-9u-1sz"/>
@@ -164,7 +164,7 @@
                                 </variation>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EfS-cd-VIg">
-                                <rect key="frame" x="161" y="342" width="92" height="42"/>
+                                <rect key="frame" x="161" y="362" width="92" height="42"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="42" id="Abd-Ua-RRC"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="92" id="KFP-e1-6Fp"/>
@@ -185,7 +185,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VfA-6u-ZTb">
-                                <rect key="frame" x="131" y="398" width="152" height="146"/>
+                                <rect key="frame" x="131" y="418" width="152" height="146"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="146" id="BfC-GJ-Fja"/>
                                     <constraint firstAttribute="width" constant="152" id="Yju-jt-QO8"/>
@@ -220,47 +220,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e8b-El-ehx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2867" y="-228"/>
-        </scene>
-        <!--Tab Bar Controller-->
-        <scene sceneID="6jP-Fe-PVB">
-            <objects>
-                <tabBarController id="uIs-3l-keh" sceneMemberID="viewController">
-                    <nil key="simulatedBottomBarMetrics"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" id="3ex-sN-sak">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    </tabBar>
-                    <connections>
-                        <segue destination="obI-Qc-665" kind="relationship" relationship="viewControllers" id="vXY-e2-gBb"/>
-                        <segue destination="A3n-fo-gMc" kind="relationship" relationship="viewControllers" id="fMR-nc-xH7"/>
-                    </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="2G4-DQ-VRG" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2190" y="306"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="KoW-RG-UDi">
-            <objects>
-                <viewController id="A3n-fo-gMc" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="si4-vR-ZzG"/>
-                        <viewControllerLayoutGuide type="bottom" id="V4a-7d-cBo"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="EfF-k9-0TF">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" systemItem="history" id="gXA-ko-QHm"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x8D-CM-Hng" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2986" y="968"/>
+            <point key="canvasLocation" x="1272" y="226"/>
         </scene>
         <!--SignUP View-->
         <scene sceneID="h2n-4B-me8">
