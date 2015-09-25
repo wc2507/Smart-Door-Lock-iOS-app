@@ -11,6 +11,7 @@
                 <outlet property="dismissB" destination="95C-VH-bhg" id="N3P-ao-j60"/>
                 <outlet property="keyName" destination="7A6-d6-RHp" id="vg9-fL-s0E"/>
                 <outlet property="popTitle" destination="l8M-SH-wri" id="knF-06-cfy"/>
+                <outlet property="resMsg" destination="7Wq-Yh-S18" id="xDH-s5-dd0"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -95,6 +96,16 @@
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
                         </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Wq-Yh-S18">
+                            <rect key="frame" x="20" y="257" width="277" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="Mi3-28-cje"/>
+                                <constraint firstAttribute="width" constant="277" id="sGX-9P-fUr"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="15"/>
+                            <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
@@ -108,10 +119,12 @@
                         <constraint firstItem="95C-VH-bhg" firstAttribute="top" secondItem="UoI-WA-SvG" secondAttribute="bottom" constant="25" id="MVw-rs-TwF"/>
                         <constraint firstItem="7A6-d6-RHp" firstAttribute="top" secondItem="yVZ-6F-fct" secondAttribute="bottom" constant="8" symbolic="YES" id="Voi-Pr-7LI"/>
                         <constraint firstAttribute="width" constant="317" id="diI-6I-eXs"/>
+                        <constraint firstItem="7Wq-Yh-S18" firstAttribute="centerX" secondItem="TVz-JW-MiU" secondAttribute="centerX" id="f2p-8m-OC5"/>
                         <constraint firstItem="UoI-WA-SvG" firstAttribute="top" secondItem="7A6-d6-RHp" secondAttribute="bottom" constant="27" id="jeV-sP-9HU"/>
                         <constraint firstAttribute="height" constant="347" id="lyR-Z3-ajF"/>
                         <constraint firstItem="7A6-d6-RHp" firstAttribute="centerX" secondItem="UoI-WA-SvG" secondAttribute="centerX" id="mOL-j2-R9Q"/>
                         <constraint firstItem="OzG-IQ-T6a" firstAttribute="top" secondItem="TVz-JW-MiU" secondAttribute="top" id="nqx-If-g8f"/>
+                        <constraint firstItem="7Wq-Yh-S18" firstAttribute="top" secondItem="UoI-WA-SvG" secondAttribute="bottom" constant="8" id="pQ1-7Y-dsg"/>
                         <constraint firstItem="7A6-d6-RHp" firstAttribute="leading" secondItem="Ica-qm-PXH" secondAttribute="leading" id="sgY-I9-ER5"/>
                         <constraint firstItem="7A6-d6-RHp" firstAttribute="top" secondItem="TVz-JW-MiU" secondAttribute="top" constant="153" id="vtC-uE-gjG"/>
                     </constraints>
@@ -123,7 +136,7 @@
                 <constraint firstItem="TVz-JW-MiU" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="icY-oR-aNG"/>
             </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
-            <point key="canvasLocation" x="73" y="184"/>
+            <point key="canvasLocation" x="417" y="112"/>
         </view>
     </objects>
     <resources>

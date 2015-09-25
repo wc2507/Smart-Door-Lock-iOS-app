@@ -16,11 +16,18 @@
 		81BA81791A49E0DB00E65899 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BA81781A49E0DB00E65899 /* AudioToolbox.framework */; };
 		81BA817B1A49E0E500E65899 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BA817A1A49E0E500E65899 /* SystemConfiguration.framework */; };
 		81BA817F1A49E0F000E65899 /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BA817E1A49E0F000E65899 /* libstdc++.6.dylib */; };
+		EC1914B61BB3B35400C5F33B /* 020_book_read_history_bookmarks_education_journal_log_logbook_3-512.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1914B51BB3B35400C5F33B /* 020_book_read_history_bookmarks_education_journal_log_logbook_3-512.png */; settings = {ASSET_TAGS = (); }; };
+		EC1914BA1BB3CF2600C5F33B /* logout-512-1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1914B91BB3CF2600C5F33B /* logout-512-1.png */; settings = {ASSET_TAGS = (); }; };
 		EC395F591BACA18500976D2B /* SignUPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC395F581BACA18500976D2B /* SignUPView.swift */; };
 		EC395F651BACE5BD00976D2B /* registerPop.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC395F641BACE5BD00976D2B /* registerPop.xib */; };
 		EC395F6F1BACF92500976D2B /* lockInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC395F6E1BACF92500976D2B /* lockInterface.swift */; };
 		EC395F731BAD1F2800976D2B /* registerPop.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC395F721BAD1F2800976D2B /* registerPop.swift */; };
 		EC426A801BB07D3B000A53A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC426A7E1BB07D3B000A53A4 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		EC426A821BB09337000A53A4 /* key_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EC426A811BB09337000A53A4 /* key_icon.png */; settings = {ASSET_TAGS = (); }; };
+		EC426A841BB093A6000A53A4 /* keyCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC426A831BB093A6000A53A4 /* keyCells.swift */; settings = {ASSET_TAGS = (); }; };
+		ECAC0C301BB45B9000D27ABD /* LogCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAC0C2F1BB45B9000D27ABD /* LogCtrl.swift */; settings = {ASSET_TAGS = (); }; };
+		ECAC0C3A1BB4662B00D27ABD /* logCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAC0C391BB4662B00D27ABD /* logCell.swift */; settings = {ASSET_TAGS = (); }; };
+		ECAC0C3E1BB4A03000D27ABD /* cellPic.png in Resources */ = {isa = PBXBuildFile; fileRef = ECAC0C3D1BB4A03000D27ABD /* cellPic.png */; settings = {ASSET_TAGS = (); }; };
 		ECDE0BF21BAFAA1D00A3F6EA /* 1-1409101J447.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECDE0BEA1BAFAA1D00A3F6EA /* 1-1409101J447.jpg */; settings = {ASSET_TAGS = (); }; };
 		ECDE0BF31BAFAA1D00A3F6EA /* BGP.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECDE0BEB1BAFAA1D00A3F6EA /* BGP.jpg */; settings = {ASSET_TAGS = (); }; };
 		ECDE0BF41BAFAA1D00A3F6EA /* CTA-Register-Now-Blue-Button-PNG-Graphic-Cave.png in Resources */ = {isa = PBXBuildFile; fileRef = ECDE0BEC1BAFAA1D00A3F6EA /* CTA-Register-Now-Blue-Button-PNG-Graphic-Cave.png */; settings = {ASSET_TAGS = (); }; };
@@ -46,11 +53,18 @@
 		81BA817A1A49E0E500E65899 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		81BA817E1A49E0F000E65899 /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
 		81BA81801A49E10C00E65899 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		EC1914B51BB3B35400C5F33B /* 020_book_read_history_bookmarks_education_journal_log_logbook_3-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "020_book_read_history_bookmarks_education_journal_log_logbook_3-512.png"; sourceTree = "<group>"; };
+		EC1914B91BB3CF2600C5F33B /* logout-512-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logout-512-1.png"; sourceTree = "<group>"; };
 		EC395F581BACA18500976D2B /* SignUPView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUPView.swift; sourceTree = "<group>"; };
 		EC395F641BACE5BD00976D2B /* registerPop.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = registerPop.xib; sourceTree = "<group>"; };
 		EC395F6E1BACF92500976D2B /* lockInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = lockInterface.swift; sourceTree = "<group>"; };
 		EC395F721BAD1F2800976D2B /* registerPop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = registerPop.swift; path = ../registerPop.swift; sourceTree = "<group>"; };
 		EC426A7F1BB07D3B000A53A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Resources/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC426A811BB09337000A53A4 /* key_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = key_icon.png; sourceTree = "<group>"; };
+		EC426A831BB093A6000A53A4 /* keyCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = keyCells.swift; sourceTree = "<group>"; };
+		ECAC0C2F1BB45B9000D27ABD /* LogCtrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogCtrl.swift; sourceTree = "<group>"; };
+		ECAC0C391BB4662B00D27ABD /* logCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = logCell.swift; sourceTree = "<group>"; };
+		ECAC0C3D1BB4A03000D27ABD /* cellPic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cellPic.png; sourceTree = "<group>"; };
 		ECDE0BEA1BAFAA1D00A3F6EA /* 1-1409101J447.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "1-1409101J447.jpg"; path = "../ParseStarterProject/1-1409101J447.jpg"; sourceTree = "<group>"; };
 		ECDE0BEB1BAFAA1D00A3F6EA /* BGP.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BGP.jpg; path = ../ParseStarterProject/BGP.jpg; sourceTree = "<group>"; };
 		ECDE0BEC1BAFAA1D00A3F6EA /* CTA-Register-Now-Blue-Button-PNG-Graphic-Cave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "CTA-Register-Now-Blue-Button-PNG-Graphic-Cave.png"; path = "../ParseStarterProject/CTA-Register-Now-Blue-Button-PNG-Graphic-Cave.png"; sourceTree = "<group>"; };
@@ -83,8 +97,12 @@
 			children = (
 				814C3AC81B69877600E307BB /* Images.xcassets */,
 				ECDE0BEA1BAFAA1D00A3F6EA /* 1-1409101J447.jpg */,
+				ECAC0C3D1BB4A03000D27ABD /* cellPic.png */,
 				ECDE0BEB1BAFAA1D00A3F6EA /* BGP.jpg */,
+				EC1914B51BB3B35400C5F33B /* 020_book_read_history_bookmarks_education_journal_log_logbook_3-512.png */,
 				ECDE0BEC1BAFAA1D00A3F6EA /* CTA-Register-Now-Blue-Button-PNG-Graphic-Cave.png */,
+				EC426A811BB09337000A53A4 /* key_icon.png */,
+				EC1914B91BB3CF2600C5F33B /* logout-512-1.png */,
 				ECDE0BED1BAFAA1D00A3F6EA /* ios8raw.jpg */,
 				ECDE0BEE1BAFAA1D00A3F6EA /* Login.png */,
 				ECDE0BEF1BAFAA1D00A3F6EA /* next-arrow-glow.png */,
@@ -122,6 +140,9 @@
 				EC395F581BACA18500976D2B /* SignUPView.swift */,
 				EC395F721BAD1F2800976D2B /* registerPop.swift */,
 				EC426A7E1BB07D3B000A53A4 /* Main.storyboard */,
+				ECAC0C2F1BB45B9000D27ABD /* LogCtrl.swift */,
+				ECAC0C391BB4662B00D27ABD /* logCell.swift */,
+				EC426A831BB093A6000A53A4 /* keyCells.swift */,
 				EC395F641BACE5BD00976D2B /* registerPop.xib */,
 			);
 			path = ParseStarterProject;
@@ -212,8 +233,12 @@
 			files = (
 				ECDE0BF91BAFAA1D00A3F6EA /* Unlock-icon.png in Resources */,
 				ECDE0BF21BAFAA1D00A3F6EA /* 1-1409101J447.jpg in Resources */,
+				EC1914BA1BB3CF2600C5F33B /* logout-512-1.png in Resources */,
 				ECDE0BF71BAFAA1D00A3F6EA /* next-arrow-glow.png in Resources */,
+				EC1914B61BB3B35400C5F33B /* 020_book_read_history_bookmarks_education_journal_log_logbook_3-512.png in Resources */,
 				ECDE0BF81BAFAA1D00A3F6EA /* SignUp.png in Resources */,
+				ECAC0C3E1BB4A03000D27ABD /* cellPic.png in Resources */,
+				EC426A821BB09337000A53A4 /* key_icon.png in Resources */,
 				EC395F651BACE5BD00976D2B /* registerPop.xib in Resources */,
 				EC426A801BB07D3B000A53A4 /* Main.storyboard in Resources */,
 				ECDE0BF61BAFAA1D00A3F6EA /* Login.png in Resources */,
@@ -250,9 +275,12 @@
 			files = (
 				EC395F6F1BACF92500976D2B /* lockInterface.swift in Sources */,
 				81BA814D1A49DA1800E65899 /* ViewController.swift in Sources */,
+				ECAC0C3A1BB4662B00D27ABD /* logCell.swift in Sources */,
 				EC395F591BACA18500976D2B /* SignUPView.swift in Sources */,
 				EC395F731BAD1F2800976D2B /* registerPop.swift in Sources */,
+				ECAC0C301BB45B9000D27ABD /* LogCtrl.swift in Sources */,
 				81BA814B1A49DA1800E65899 /* AppDelegate.swift in Sources */,
+				EC426A841BB093A6000A53A4 /* keyCells.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +383,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -371,6 +400,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",

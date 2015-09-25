@@ -8,21 +8,37 @@
 
 import UIKit
 import Parse
-class registerPop: UIView {
+class registerPop: UIView,UITextFieldDelegate {
     
     var view:UIView!
+    var activityIndicator: UIActivityIndicatorView = UIActivityIndicatorView()
+    
     @IBOutlet weak var popTitle: UILabel!
     @IBOutlet weak var KeyID: UITextField!
     @IBOutlet weak var keyName: UITextField!
     @IBOutlet weak var dismissB: UIButton!
+    @IBOutlet weak var resMsg: UILabel!
     @IBAction func registerB(sender: AnyObject) {
         
     if(KeyID != nil && keyName != nil){
       let cUser = PFUser.currentUser()!.objectId!
       let PID = KeyID.text
       let nKey = keyName.text
+        //call indicator
+        activityIndicator = UIActivityIndicatorView(frame: CGRectMake(0,0,50,50))
+        activityIndicator.center = self.view.center
+        activityIndicator.hidesWhenStopped = true
+        activityIndicator.activityIndicatorViewStyle = UIActivityIndicatorViewStyle.Gray
+        view.addSubview(activityIndicator)
+        activityIndicator.startAnimating()
+        // stop interaction
+        UIApplication.sharedApplication().beginIgnoringInteractionEvents()
+        
         PFCloud.callFunctionInBackground("Reg", withParameters: ["ID":PID!,"CUID":cUser,"nKey":nKey!]) { (response, error) -> Void in
-                print(response!)}
+            self.resMsg.text = (response! as! String)
+            self.activityIndicator.stopAnimating()
+            UIApplication.sharedApplication().endIgnoringInteractionEvents()
+          }
         }
 
 
@@ -41,6 +57,16 @@ class registerPop: UIView {
         view = loadViewFromNib()
         view.frame = bounds
         addSubview(view)
+        self.KeyID.delegate = self
+        self.keyName.delegate = self
+    }
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool{
+        textField.resignFirstResponder()
+        return true
     }
     
     func loadViewFromNib() -> UIView{

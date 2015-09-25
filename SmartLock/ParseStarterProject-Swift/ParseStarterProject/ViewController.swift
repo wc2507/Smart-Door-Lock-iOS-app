@@ -76,8 +76,8 @@ class ViewController: UIViewController,UITextFieldDelegate {
     }
     
     override func viewDidAppear(animated: Bool) {
-       if ((PFUser.currentUser()) != nil){
-           // self.performSegueWithIdentifier("Logined", sender: self)
+       if ((PFUser.currentUser()?.objectId) != nil){
+           self.performSegueWithIdentifier("Logined", sender: self)
         }
         
     }
